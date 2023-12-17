@@ -36,8 +36,7 @@
         justify-content: center;
         align-items: center;
         color: #fff;
-        opacity: 0.3;
-        background-color: #000;
+        background-color: rgba(0, 0, 0, 0.3);
       }
 
       .close-icon {
@@ -45,12 +44,24 @@
         right: 32px;
         position: absolute;
         cursor: pointer;
+        opacity: 1;
+      }
+
+      .country-card {
+        background-color: white;
+        text-align: center;
+        padding: 16px;
+        color: #000;
       }
     </style>
   </head>
   <body>
     <div id="overlay">
       <i class="fa-solid fa-xmark fa-2x close-icon"></i>
+      <div class="country-card">
+        <img src="" alt="" />
+        <h3></h3>
+      </div>
     </div>
     <div id="flags-area"></div>
     <script src="display-countries.js"></script>
