@@ -1,0 +1,50 @@
+
+Topics:
+
+  Recap:
+    async & await --> which makes fews async operations synchronous inside an    aysnc block await helps in doing so
+      return type: promise which contains the return obj ( not suggested to return anything from a async func )
+
+    Publics APIs - Open Source APIs which gives data about common information
+      Look for You requirement & Choose a type of API
+      Use APIs which has HTTPS & CORS --> Cross Origin Resources Sharing enabled
+      If Signing is fine Go for Auth, HTTPS, CORS enabled
+      CORS -> Cross Origin Resource Sharing
+
+  Mock APIs --> A Mocked Server/Backend setup which support the Client to perform CRUD operations from UI
+
+  HTTP Methods --> used to determine the action that is getting performed
+    GET --> Read Data from any Resource
+    POST --> creating data for any Resource
+    PUT --> updating data for any Resource
+    DELETE --> deleting data for any Resource
+
+  CRUD Operations on Resources
+  Read ( GET ) all, particular ---> Read all/specific entity
+
+  Create ( POST ) --> Create a new entity
+    need title, imageUrl, caption
+
+    Create a form with above input fields
+
+  Delete ( DELETE ) --> Delete a particular entity
+
+  website: https://mockapi.io/
+  Refer: mock-apis files
+
+Next Session:
+  
+  Update ( PUT ) --> Update a particular entity
+
+Task:
+
+  Day 18: Promise Task
+    https://docs.google.com/document/d/1wa9laCdb__QIty4ZAre2-uY0OmHeq4xinhKpwjty8UI/preview
+
+    Select three apis from the public apis
+
+      Eg:
+        random-fox.html
+        random-fox.js
+        random-cat.html
+        random-cat.js

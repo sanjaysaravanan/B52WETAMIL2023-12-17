@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      #flags-area {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      #flags-area > img {
+        margin: 8px;
+        height: 100px;
+        width: 200px;
+        cursor: pointer;
+      }
+
+      #overlay {
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        opacity: 0.3;
+        background-color: #000;
+      }
+
+      .close-icon {
+        top: 16px;
+        right: 32px;
+        position: absolute;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="overlay">
+      <i class="fa-solid fa-xmark fa-2x close-icon"></i>
+    </div>
+    <div id="flags-area"></div>
+    <script src="display-countries.js"></script>
+  </body>
+</html>
